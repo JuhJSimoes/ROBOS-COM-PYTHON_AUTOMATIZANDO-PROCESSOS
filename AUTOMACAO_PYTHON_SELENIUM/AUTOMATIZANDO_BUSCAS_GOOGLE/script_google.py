@@ -27,6 +27,7 @@ print(status_resultado)
 num_resultados = int(status_resultado.split('Aproximadamente ')[1].split(' resultados')[0].replace('.', ''))
 maximo_paginas = num_resultados/10
 print('\n')
+
 pagina_maxima = input("%s páginas encontradas, até qual página deseja ler os resultados?" % (maximo_paginas))
 print('\n')
 
